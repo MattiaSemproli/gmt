@@ -10,7 +10,7 @@ The project includes the following components:
 
 - **create_dataset.ipynb**: A Jupyter notebook allowing the creation of a customized dataset from an image, generating various variants through rotations, translations, zooms, distortions, etc.
 
-- **model_training_v2.0.0**: A file for training a model using sparse_categorical_crossentropy, enabling the recognition of multiple classes. This version includes significant code improvements for more efficient model training and code readability.
+- **model_training**: A file for training a model using sparse_categorical_crossentropy, enabling the recognition of multiple classes. This version includes significant code improvements for more efficient model training and code readability.
 
 ## Usage
 
@@ -19,7 +19,7 @@ To use the `create_dataset.ipynb` notebook, follow these steps (skip if you alre
 1. Open the notebook using Jupyter or another compatible environment and follow the instructions for creating the customized dataset.
 2. Make sure to have all the necessary libraries installed (`pip install library_name`).
 
-To use the `model_training_v2.0.0` file, follow these steps (if you don't have a dataset, go back to the previous step):
+To use the `model_training` file, follow these steps (if you don't have a dataset, go back to the previous step):
 
 1. Ensure that the data folders are structured correctly in the `data` directory, with images of the desired classes organized into subfolders.
 2. Execute the file to initiate the model training process using the provided data in the `data` directory.
