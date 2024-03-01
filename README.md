@@ -31,7 +31,7 @@ The project is structured as follows:
 - **data/**: Contains data folders with images of classes (e.g., dogs, cats).
 - **logs/**: Contains log files generated during the model training.
 - **create_dataset.ipynb**: The notebook for dataset creation.
-- **model_training_v2.0.0**: The file for model training.
+- **model_training**: The file for model training.
 
 ## License
 
